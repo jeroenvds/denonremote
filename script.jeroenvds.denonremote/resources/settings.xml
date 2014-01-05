@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32004">
+        <setting label="32001" type="ipaddress"   id="denonip" default="192.168.1.202"/>
+        <setting label="32002" type="labelenum"   id="denoninput" default="MPLAY"  values="SAT/CBL|DVD|BD|TV|MPLAY|TUNER|GAME|AUX1"/>
+    </category>
+</settings>

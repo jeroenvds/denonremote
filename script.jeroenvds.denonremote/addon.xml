@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 	id="script.jeroenvds.denonremote" 
+				name="Denon Remote" 
+				version="0.0.3" 
+				provider-name="Jeroen">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.service" library="default.py" start="login" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Denon Remote</summary>
+		<description>Will turn on your Denon AVR when playing something</description>
+		<platform>all</platform>
+		<email>vds.jeroen@gmail.com</email>
+	</extension>
+</addon>
